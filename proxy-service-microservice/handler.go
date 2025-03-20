@@ -1,7 +1,5 @@
 package proxyservicemicroservice
 
-//СДЕЛАТЬ СЕРВЕР И КОНТРОЛЛЕР, ЗНАЕСТИ ГЛОБАЛЬНЫЕ ПЕРЕМЕННЫЕ В ПРИВАТНЫЕ ПОЛЯ КЛАССОВ
-
 import (
 	"bytes"
 	"encoding/json"
