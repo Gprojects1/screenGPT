@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "screenGPT",
+  "version": "1.0",
+  "description": "Take a screenshot of a selected area",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "contextMenus",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "take-screenshot": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+S",
+        "mac": "Command+Shift+P"
+      },
+      "description": "Take a screenshot"
+    }
+  },
+  "icons": {
+    "900": "icon900.png"
+  }
+}
